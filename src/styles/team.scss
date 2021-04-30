@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+
+@media(min-width:981px) {
+    section.team {
+        padding-bottom: 4vh;
+        font-family: 'Sen', sans-serif;
+        position: relative;
+        div#teamm {
+            position: absolute;
+            top: -9vh;
+        }
+        div.team__title {
+            width: 100%;
+           
+            h1 {
+                font-size: 16px;
+                text-align: center;
+                letter-spacing: 12px;
+                text-transform: uppercase;
+                color: #1C1F83;
+            }
+        }
+        .splide {
+            display: none;
+        }
+        div.team__holder {
+            max-width: 1138px;
+            width: 100%;
+            height: 455px;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            margin: 2vh auto;
+            
+                            div.team__memberCard {
+                                width: 230px;
+                                height: 455px;
+                              
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: start;
+                                img {
+                                    width: 115px;
+                                    height: 115px;
+                                    border-radius: 999px;
+                                    margin-bottom: 10px;
+                                }
+                                h1 {
+                                    font-size: 24px;
+                                    line-height: 34px;
+                                    text-align: center;
+                                    color: #38A5DB;
+                                    font-weight: 400;
+                                    cursor: pointer;
+                                }
+                                h4 {
+                                    font-size: 13px;
+                                    text-align: center;
+                                    font-weight: 400;
+                                    color: #011226;
+                                    padding: 5px 0;
+                                }
+                                p {
+                                    font-size: 18px;
+                                    color: #45515F;
+                                    text-align: center;
+                                    padding: 20px 0;
+                                    width: 100%;
+                                }
+                                div.team__carButtons {
+                                    display: flex;
+                                    width: 50%;
+                                    justify-content: space-evenly;
+                                    button {
+                                        width: 43px;
+                                        height: 23px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background-color: transparent;
+                                        border: #7F8B98 1px solid;
+                       
+                    }
+                }
+            }
+           
+        }
+    }
+}
+
+
+
+
+@media(max-width: 980px) {
+    .splide__pagination { 
+     
+        bottom: 50px;
+     
+    }
+    .splide__arrow {
+        display: none;
+    }
+    section.team {
+       position: relative;
+        font-family: 'Sen', sans-serif;
+        div#teamm {
+            position: absolute;
+            top: -9vh;
+        }
+        div.team__title {
+            width: 100%;
+    
+            h1 {
+                font-size: 16px;
+                text-align: center;
+                letter-spacing: 12px;
+                text-transform: uppercase;
+                color: #1C1F83;
+                padding-bottom: 20px;
+                cursor: pointer;
+            } 
+           
+         
+        }
+    div.team__holder {display: none}
+    .splide {
+        .splide__track{
+            .splide__list{
+
+                .splide__slide {
+                    display: flex;
+                    justify-content: center;
+                    div.team__memberCardS {
+                        width: 230px;
+                        height: 455px;
+                      
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: start;
+                        img {
+                            width: 115px;
+                            height: 115px;
+                            border-radius: 999px;
+                            margin-bottom: 10px;
+                        }
+                        h1 {
+                            font-size: 24px;
+                            line-height: 34px;
+                            text-align: center;
+                            color: #38A5DB;
+                            font-weight: 400;
+                        }
+                        h4 {
+                            font-size: 13px;
+                            text-align: center;
+                            font-weight: 400;
+                            color: #011226;
+                            padding: 5px 0;
+                        }
+                        p {
+                            font-size: 18px;
+                            color: #45515F;
+                            text-align: center;
+                            padding: 20px 0;
+                            width: 100%;
+                        }
+                        div.team__carButtons {
+                            display: flex;
+                            width: 50%;
+                            justify-content: space-evenly;
+                            button {
+                                width: 43px;
+                                height: 23px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: transparent;
+                                border: #7F8B98 1px solid;
+               
+            }
+        }
+    }
+                }
+            }
+        }
+    }
+    }
+}
+@media(max-width: 440px) {
+    .splide__pagination { 
+    
+        bottom: 50px;
+     
+    }
+    .splide__arrow {
+        display: none;
+    }
+    section.team {
+    
+        font-family: 'Sen', sans-serif;
+        
+        div.team__title {
+            width: 100%;
+    
+            h1 {
+                font-size: 16px;
+                text-align: center;
+                letter-spacing: 12px;
+                text-transform: uppercase;
+                color: #1C1F83;
+                padding-bottom: 20px;
+                cursor: pointer;
+            } 
+           
+         
+        }
+    div.team__holder {display: none}
+    .splide {
+        .splide__track{
+            .splide__list{
+
+                .splide__slide {
+                    display: flex;
+                    justify-content: center;
+                    div.team__memberCardS {
+                        width: 200px;
+                        height: 455px;
+                      
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: start;
+                        img {
+                            width: 115px;
+                            height: 115px;
+                            border-radius: 999px;
+                            margin-bottom: 10px;
+                        }
+                        h1 {
+                            font-size: 16px;
+                            line-height: 34px;
+                            text-align: center;
+                            color: #38A5DB;
+                            font-weight: 400;
+                        }
+                        h4 {
+                            font-size: 13px;
+                            text-align: center;
+                            font-weight: 400;
+                            color: #011226;
+                            padding: 5px 0;
+                        }
+                        p {
+                            font-size: 12px;
+                            color: #45515F;
+                            text-align: center;
+                            padding: 5px 10px;
+                            width: 100%;
+                        }
+                        div.team__carButtons {
+                            display: flex;
+                            width: 70%;
+                            justify-content: space-evenly;
+                            button {
+                                width: 43px;
+                                height: 23px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: transparent;
+                                border: #7F8B98 1px solid;
+                                
+               
+            }
+        }
+    }
+                }
+            }
+        }
+    }
+    }
+}

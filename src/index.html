@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-modal/1.6.5/index.min.js" integrity="sha512-sK4qyWeGm10tV6RXhhR3zboMTJKeAw8KYW14ARp6s9Nmqbro/X5lkL8grCOkMUgTwM8ChesiK6iM7vm8QC7jMg==" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/869891928a.js" crossorigin="anonymous"></script>
+    <script defer src="./scripts/nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script defer src="./scripts/slide.js"></script>
+    <link rel="stylesheet" href="./styles/wrapper.css">
+    <title>Rekrutacja Strona</title>
+</head>
+<body>
+       
+
+    <nav class="nav">
+        <div class="nav__wrapper">
+            <a href="#lobby">
+            <svg  class="nav__logo" width="96" height="39" viewBox="0 0 96 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.3459 31.018H0V0H3.3459V31.018ZM22.8464 7.89926C26.0563 7.89926 28.7833 9.07104 31.0275 11.4146C33.2717 13.7582 34.3938 16.5705 34.3938 19.8515C34.3938 23.1326 33.2853 25.938 31.0683 28.2678C28.8513 30.5976 26.1107 31.7625 22.8464 31.7625C19.5821 31.7625 16.8346 30.5976 14.604 28.2678C12.3734 25.938 11.2581 23.1326 11.2581 19.8515C11.2581 16.5705 12.3802 13.7582 14.6244 11.4146C16.8686 9.07104 19.6093 7.89926 22.8464 7.89926ZM22.8464 28.4952C25.1042 28.4952 27.0287 27.6612 28.6201 25.9931C30.2114 24.325 31.0071 22.3123 31.0071 19.9549C31.0071 17.5976 30.1978 15.5573 28.5793 13.834C26.9607 12.1108 25.043 11.2492 22.826 11.2492C20.609 11.2492 18.698 12.1108 17.093 13.834C15.4881 15.5573 14.6856 17.6044 14.6856 19.9756C14.6856 22.3468 15.4609 24.3595 17.0114 26.0138C18.562 27.6681 20.5069 28.4952 22.8464 28.4952ZM64.9521 25.7243C64.9521 28.702 64.7005 30.9077 64.1972 32.3415C63.694 33.7752 62.9323 34.9883 61.9122 35.9809C60.8921 36.9735 59.668 37.7248 58.2399 38.2349C56.8117 38.745 55.2408 39 53.527 39C47.7329 39 43.8702 36.5186 41.9388 31.5557H45.5295C47.1073 34.4231 49.7323 35.8568 53.4046 35.8568C55.0912 35.8568 56.6009 35.526 57.9338 34.8643C59.2668 34.2025 60.2052 33.3203 60.7493 32.2174C61.2934 31.1145 61.5654 29.4189 61.5654 27.1304V26.9236C60.5045 28.1368 59.226 29.0604 57.7298 29.6946C56.2337 30.3287 54.6832 30.6458 53.0782 30.6458C49.8683 30.6458 47.1821 29.5292 45.0195 27.2959C42.8569 25.0626 41.7892 22.4295 41.8164 19.3966C41.7892 16.2259 42.9181 13.517 45.2031 11.2699C47.4881 9.02279 50.2015 7.89926 53.3434 7.89926C56.4853 7.89926 59.226 9.19511 61.5654 11.7868V8.47826H64.9521V25.7243ZM61.6878 19.3966C61.6878 17.0254 60.9057 15.0679 59.3416 13.5239C57.7774 11.9798 55.8665 11.2078 53.6087 11.2078C51.2148 11.2078 49.2087 12.0419 47.5901 13.71C45.9715 15.3781 45.1623 17.3149 45.1623 19.5207C45.1623 21.7264 45.9375 23.5944 47.4881 25.1246C49.0386 26.6548 51.0244 27.4199 53.4454 27.4199C55.8665 27.4199 57.8454 26.6686 59.3824 25.166C60.9193 23.6633 61.6878 21.7402 61.6878 19.3966ZM84.4525 7.89926C87.6625 7.89926 90.3895 9.07104 92.6337 11.4146C94.8779 13.7582 96 16.5705 96 19.8515C96 23.1326 94.8915 25.938 92.6745 28.2678C90.4575 30.5976 87.7169 31.7625 84.4525 31.7625C81.1882 31.7625 78.4408 30.5976 76.2102 28.2678C73.9796 25.938 72.8643 23.1326 72.8643 19.8515C72.8643 16.5705 73.9864 13.7582 76.2306 11.4146C78.4748 9.07104 81.2154 7.89926 84.4525 7.89926ZM84.4525 28.4952C86.7104 28.4952 88.6349 27.6612 90.2263 25.9931C91.8176 24.325 92.6133 22.3123 92.6133 19.9549C92.6133 17.5976 91.804 15.5573 90.1855 13.834C88.5669 12.1108 86.6492 11.2492 84.4321 11.2492C82.2151 11.2492 80.3042 12.1108 78.6992 13.834C77.0943 15.5573 76.2918 17.6044 76.2918 19.9756C76.2918 22.3468 77.0671 24.3595 78.6176 26.0138C80.1682 27.6681 82.1131 28.4952 84.4525 28.4952Z" fill="#263396"/>
+                </svg>
+            </a>
+            <ul class="nav__menu">
+                <li class="lobby current"><a  href="#lobby">ICO</a></li>
+                <li class="team"><a href="#teamm">Team</a></li>
+                <li class="contact"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    <section  class="header" id = 'lobby'>
+        <div class="header__sqHolder">
+            <div class="header__sq1"></div>
+            <div class="header__sq2"></div>
+            <div class="header__sq3"></div>
+        </div>
+      <div class="header__socialMedia">
+          <a href="#">
+            <div class="header__socialMedia--socialLink">
+                <i class="fab fa-twitter"></i>
+            </div>
+          </a>
+        
+          <a href="#">
+            <div class="header__socialMedia--socialLink">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+          </a>
+      </div>
+
+      <div class="header__seeMore">
+          <a href="#teamm">
+         
+          
+            <canvas></canvas><canvas></canvas><canvas></canvas>
+           
+          </a>
+        
+      </div>
+
+        <div class="header__leftSide">
+            <h1>The first fully-automatic social crypto trading platform with real crypto currency</h1>
+            <div class="header__leftSidesub">
+                <p>Subscribe and get the lastes information</p>
+                <form action="submit">
+                    <input type="text" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="header__rightSide">
+            <img src="https://s3-alpha-sig.figma.com/img/f803/cd05/48d9a87f0325f4a29b242e1ee3e431bd?Expires=1620604800&Signature=a3u6t8xM94aDs8eaNTUi8~GwyTfTY7PVWv07gxUsBjLe2VzYFsf01~pqwbdVe9HefELpPzMnOMrvl7Cc37dj30ZD5LIjwGBdzRQ9zaaLHhBkFWeQeTpyFXoJXe32IqwnTzCJWd4pJZY-w5GqYC9wPPI8oJ6d0GAesipBoGBLpQjXcn9yjO1GXamrv8y0uU~i3IsYGeyPvbL9mtD3XX9M603P-dyFO6PoifCcZeygz91n8bxS3axgxwfw8-6RIt~wWPECeCCyFmSuk6cIQDklI4SsjnDZFGOWo9jO4OYu6tP4C9Fl4dRBqGKRuzXcVVXZiK74m-J-lDTH10IwQ3iBOw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+               
+        </img>
+        <button data-bs-toggle="modal" data-bs-target="#videoModal" class="header__rightSide--playButton">
+            <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0L16 10L0 20V0Z" fill="white"/>
+                </svg>
+                
+            </button>
+        </div>
+    </section>
+    
+    <section id = 'team' class="team">
+        <div id="teamm"></div>
+        <div class="team__title">
+            <h1>team</h1> 
+        </div>
+        <div class="team__holder">
+            <div class="team__memberCard">
+                            <img src="./images/member4.png" alt="">
+                           <h1 data-bs-toggle="modal" data-bs-target="#personModal1">Edgar Morrison</h1>
+                            <h4>CEO</h4>
+                            <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                            <div class="team__carButtons">
+                                <button><i class="fab fa-facebook-f"></i></button>
+                                <button><i class="fab fa-linkedin-in"></i></button>
+                            </div>
+                        </div>
+                         <div class="team__memberCard">
+                            <img src="./images/member2.png" alt="">
+                            <h1 data-bs-toggle="modal" data-bs-target="#personModal2">Mae Martin</h1>
+                            <h4>CTO</h4>
+                            <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                            <div class="team__carButtons">
+                                <button><i class="fab fa-facebook-f"></i></button>
+                                <button><i class="fab fa-linkedin-in"></i></button>
+                            </div>
+                        </div>
+                         <div class="team__memberCard">
+                            <img src="./images/member3.png" alt="">
+                            <h1 data-bs-toggle="modal" data-bs-target="#personModal3">David Banks</h1>
+                            <h4>CFO</h4>
+                            <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                            <div class="team__carButtons">
+                                <button><i class="fab fa-facebook-f"></i></button>
+                                <button><i class="fab fa-linkedin-in"></i></button>
+                            </div>
+                        </div>
+                         <div class="team__memberCard">
+                            <img src="./images/member1.png" alt="">
+                            <h1 data-bs-toggle="modal" data-bs-target="#personModal2">Frederick Parsons</h1>
+                            <h4>COO</h4>
+                            <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                            <div class="team__carButtons">
+                                <button><i class="fab fa-facebook-f"></i></button>
+                                <button><i class="fab fa-linkedin-in"></i></button>
+                            </div>
+                        </div>
+                 
+          
+          
+        </div>
+
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">   <div class="team__memberCardS">
+                        <img src="./images/member4.png" alt="">
+                        <h1 data-bs-toggle="modal" data-bs-target="#personModal1">Edgar Morrison</h1>
+                        <h4>CEO</h4>
+                        <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <div class="team__carButtons">
+                            <button><i class="fab fa-facebook-f"></i></button>
+                            <button><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                    </div></li>
+                    <li class="splide__slide">   <div class="team__memberCardS">
+                        <img src="./images/member2.png" alt="">
+                        <h1 data-bs-toggle="modal" data-bs-target="#personModal2">Mae Martin</h1>
+                        <h4>CTO</h4>
+                        <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <div class="team__carButtons">
+                            <button><i class="fab fa-facebook-f"></i></button>
+                            <button><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                    </div></li>
+                    <li class="splide__slide">   <div class="team__memberCardS">
+                        <img src="./images/member3.png" alt="">
+                        <h1 data-bs-toggle="modal" data-bs-target="#personModal3">David Banks</h1>
+                        <h4>CFO</h4>
+                        <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <div class="team__carButtons">
+                            <button><i class="fab fa-facebook-f"></i></button>
+                            <button><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                    </div></li>
+                    <li class="splide__slide">   <div class="team__memberCardS">
+                        <img src="./images/member1.png" alt="">
+                        <h1 data-bs-toggle="modal" data-bs-target="#personModal4">Frederick Parsons</h1>
+                        <h4>COO</h4>
+                        <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <div class="team__carButtons">
+                            <button><i class="fab fa-facebook-f"></i></button>
+                            <button><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                    </div></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id = 'contact'>
+        <div class="contact__InnerBlock">
+            <h1>Contact Us</h1>
+            <h3>Most calendars are designed for teams. 
+                Slate is designed for freelancers</h3>
+            <div class="contact__blueZone">
+                <form action="submit">
+                    <div class="contact__center">
+                        <input placeholder="Your Name" type="text">
+                        <input placeholder="Your Email" type="text">
+                    </div>
+                  
+                    <div class="contact__left">
+                        <label for=""><input class="contact__leftCheck" type="checkbox"> Checkbox</label>
+                        
+                        <button>Send</button>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer__firstLyr">
+            <div class="footer__even">
+                <svg class="footer__logo" width="96" height="39" viewBox="0 0 96 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.3459 31.018H0V0H3.3459V31.018ZM22.8464 7.89926C26.0563 7.89926 28.7833 9.07104 31.0275 11.4146C33.2717 13.7582 34.3938 16.5705 34.3938 19.8515C34.3938 23.1326 33.2853 25.938 31.0683 28.2678C28.8513 30.5976 26.1107 31.7625 22.8464 31.7625C19.5821 31.7625 16.8346 30.5976 14.604 28.2678C12.3734 25.938 11.2581 23.1326 11.2581 19.8515C11.2581 16.5705 12.3802 13.7582 14.6244 11.4146C16.8686 9.07104 19.6093 7.89926 22.8464 7.89926ZM22.8464 28.4952C25.1042 28.4952 27.0287 27.6612 28.6201 25.9931C30.2114 24.325 31.0071 22.3123 31.0071 19.9549C31.0071 17.5976 30.1978 15.5573 28.5793 13.834C26.9607 12.1108 25.043 11.2492 22.826 11.2492C20.609 11.2492 18.698 12.1108 17.093 13.834C15.4881 15.5573 14.6856 17.6044 14.6856 19.9756C14.6856 22.3468 15.4609 24.3595 17.0114 26.0138C18.562 27.6681 20.5069 28.4952 22.8464 28.4952ZM64.9521 25.7243C64.9521 28.702 64.7005 30.9077 64.1972 32.3415C63.694 33.7752 62.9323 34.9883 61.9122 35.9809C60.8921 36.9735 59.668 37.7248 58.2399 38.2349C56.8117 38.745 55.2408 39 53.527 39C47.7329 39 43.8702 36.5186 41.9388 31.5557H45.5295C47.1073 34.4231 49.7323 35.8568 53.4046 35.8568C55.0912 35.8568 56.6009 35.526 57.9338 34.8643C59.2668 34.2025 60.2052 33.3203 60.7493 32.2174C61.2934 31.1145 61.5654 29.4189 61.5654 27.1304V26.9236C60.5045 28.1368 59.226 29.0604 57.7298 29.6946C56.2337 30.3287 54.6832 30.6458 53.0782 30.6458C49.8683 30.6458 47.1821 29.5292 45.0195 27.2959C42.8569 25.0626 41.7892 22.4295 41.8164 19.3966C41.7892 16.2259 42.9181 13.517 45.2031 11.2699C47.4881 9.02279 50.2015 7.89926 53.3434 7.89926C56.4853 7.89926 59.226 9.19511 61.5654 11.7868V8.47826H64.9521V25.7243ZM61.6878 19.3966C61.6878 17.0254 60.9057 15.0679 59.3416 13.5239C57.7774 11.9798 55.8665 11.2078 53.6087 11.2078C51.2148 11.2078 49.2087 12.0419 47.5901 13.71C45.9715 15.3781 45.1623 17.3149 45.1623 19.5207C45.1623 21.7264 45.9375 23.5944 47.4881 25.1246C49.0386 26.6548 51.0244 27.4199 53.4454 27.4199C55.8665 27.4199 57.8454 26.6686 59.3824 25.166C60.9193 23.6633 61.6878 21.7402 61.6878 19.3966ZM84.4525 7.89926C87.6625 7.89926 90.3895 9.07104 92.6337 11.4146C94.8779 13.7582 96 16.5705 96 19.8515C96 23.1326 94.8915 25.938 92.6745 28.2678C90.4575 30.5976 87.7169 31.7625 84.4525 31.7625C81.1882 31.7625 78.4408 30.5976 76.2102 28.2678C73.9796 25.938 72.8643 23.1326 72.8643 19.8515C72.8643 16.5705 73.9864 13.7582 76.2306 11.4146C78.4748 9.07104 81.2154 7.89926 84.4525 7.89926ZM84.4525 28.4952C86.7104 28.4952 88.6349 27.6612 90.2263 25.9931C91.8176 24.325 92.6133 22.3123 92.6133 19.9549C92.6133 17.5976 91.804 15.5573 90.1855 13.834C88.5669 12.1108 86.6492 11.2492 84.4321 11.2492C82.2151 11.2492 80.3042 12.1108 78.6992 13.834C77.0943 15.5573 76.2918 17.6044 76.2918 19.9756C76.2918 22.3468 77.0671 24.3595 78.6176 26.0138C80.1682 27.6681 82.1131 28.4952 84.4525 28.4952Z" fill="#263396"/>
+                </svg>
+                </div>
+                <div class="footer__even">
+                    <div class="footer__columnMaker">
+                        <h2>Contact us:</h2>
+                        <a href="#">have@nicecoding.io</a>
+                    </div>
+                </div>
+                <div class="footer__even">   <button>Read Whitepaper</button></div>
+             
+            </div>
+            <div class="footer__secondLyr">
+                <ul>
+                    <li>Copywritters 2020</li>
+                    <li>FAQ</li>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+      
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="modal fade" id = "personModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-bs-dismiss="modal" class="modal__close"><canvas></canvas><canvas></canvas></button>
+                    <h1> Edgar Morrison</h1>
+                    <h4>CEO</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal__text">
+                      <p> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+                    </div>
+                   
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id = "personModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-bs-dismiss="modal" class="modal__close"><canvas></canvas><canvas></canvas></button>
+                   <h1>Mae Martin</h1> 
+                    <h4>CTO</h4>
+                </div>
+                <div class="modal-body">
+                   <p> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id = "personModal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-bs-dismiss="modal" class="modal__close"><canvas></canvas><canvas></canvas></button>
+                   <h1> David Banks </h1>
+                    <h4>CFO</h4>
+                </div>
+                <div class="modal-body">
+                   <p> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id = "personModal4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-bs-dismiss="modal" class="modal__close"><canvas></canvas><canvas></canvas></button>
+                    <h1>   Frederick Parsons</h1>
+                    <h4>COO</h4>
+                </div>
+                <div class="modal-body">
+                 <p> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p> 
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id = "videoModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-bs-dismiss="modal" class="modal__close"><canvas></canvas><canvas></canvas></button>
+                    <h1>   Stock Video</h1>
+                   
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6rjTMdi37Kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+         
+        </div>
+    </div>
+</body>
+</html>

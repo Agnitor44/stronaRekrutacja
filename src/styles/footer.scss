@@ -1,0 +1,220 @@
+section.footer {
+    width: 100%;
+    background: linear-gradient(180deg, #FAFBFF 0%, #EFF1F9 41.68%, #E9ECF6 49.59%, #CED3E8 93.91%);
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+    div.footer__firstLyr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+      
+       
+        width: 100%;
+        div.footer__even {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer__columnMaker {
+            h2 {
+                font-size: 16px;
+                text-align: center;
+            }
+            a {
+                font-size: 20px;
+            }
+        }
+        button {
+            background-color: #38A5DB;
+            width: 220px;
+            height: 46px;
+            box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
+            border-radius: 999px;
+            border: none;
+            color: white;
+        }
+    }
+    div.footer__secondLyr {
+ 
+       width: 60%;
+        
+        margin: 0 auto;
+      
+      
+      
+      
+        ul {
+            width: 100%;
+            display: flex;
+            margin: 0 auto;
+            li {
+                font-size: 18px;
+                color: #45515F;
+                list-style: none;
+                width: 25%;
+                border-left: 2px solid #9CA4C7;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:nth-child(1) {
+                    border:none;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 960px) {
+    section.footer {
+        
+        div.footer__firstLyr {
+         
+            div.footer__even {
+            
+            }
+            .footer__columnMaker {
+                h2 {
+                 
+                }
+                a {
+                  
+                }
+            }
+            button {
+           
+            }
+        }
+        div.footer__secondLyr {
+     
+          width: 100%;
+          
+          
+          
+          
+            ul {
+            
+                li {
+            
+    
+                    &:nth-child(1) {
+                      
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 670px) {
+    section.footer {
+        height: auto;
+        div.footer__firstLyr {
+         flex-direction: column;
+         position: relative;
+            justify-content: space-evenly;
+            height: 30vh;
+            div.footer__even {
+            width: 80%;
+            }
+            .footer__columnMaker {
+                h2 {
+                 
+                }
+                a {
+                  
+                }
+            }
+            button {
+           
+            }
+        }
+
+        svg {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+        div.footer__secondLyr {
+            
+      
+          
+          
+          
+            ul {
+                width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          background-color: white;
+                li {
+                    width: 50%;
+                    height: 50px;
+                  border: none;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 440px) {
+    section.footer {
+        height: auto;
+        padding: 0;
+        div.footer__firstLyr {
+         flex-direction: column;
+         position: relative;
+            justify-content: space-evenly;
+            height: 40vh;
+            div.footer__even {
+            width: 80%;
+            }
+            .footer__columnMaker {
+                h2 {
+                 padding-bottom: 10px;
+                 
+                }
+                a {
+                font-size: 20px;
+                }
+            }
+            button {
+           
+            }
+        }
+
+        svg {
+            position: absolute;
+            left: 20px;
+            top: 30px;
+            width: 55px;
+            height: 22px;
+        }
+        div.footer__secondLyr {
+       
+          
+          
+          
+            ul {
+                width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          background-color: white;
+          padding: 0;
+          margin: 0;
+                li {
+                    width: 50%;
+                    height: 50px;
+                    font-size: 12px;
+                  border: none;
+                }
+            }
+        }
+    }
+}
